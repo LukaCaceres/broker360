@@ -1,0 +1,5 @@
+.footer-container{
+    background: #001220;
+    background: linear-gradient(175deg, #001220 81%, rgba(156,7,228,1) 90%, rgba(72,30,113,1) 100%);
+    border-top: 1px solid rgb(27, 27, 27);
+}
