@@ -1,0 +1,45 @@
+.premedic-card-border, .premedic-nombre-container, .premedic-button {
+    background: rgb(39, 161, 160);
+
+}
+
+#premedic-logo{
+    height: 2.5rem;
+    width: auto;
+    padding-left:.4rem;
+}
+
+.premedic-button:hover{
+    background: linear-gradient(170deg, rgb(43, 168, 168) 2%, rgb(20, 85, 94) 51%, rgb(37, 161, 161) 100%);
+}
+
+.avalian-card-border, .avalian-nombre-container, .avalian-button {
+    background: #8bdc65;
+    background: linear-gradient(170deg,#8bdc65 2%, #049b6c 51%, #8bdc65 100%);
+}
+
+#avalian-logo{
+    height: 2.5rem;
+    width: auto;
+    padding-left: .4rem;
+}
+
+.avalian-button:hover{
+    background: linear-gradient(170deg,#049b6c 2%,#049b50 51%, #049b6c 100%);
+}
+
+.unimed-card-border, .unimed-nombre-container, .unimed-button {
+    background: rgb(153, 41, 175);
+    background: linear-gradient(170deg, rgba(153, 41, 175, 1) 2%, rgb(161, 22, 154) 51%, rgba(153, 41, 175, 1) 100%);
+}
+
+#unimed-logo{
+    height: 2.5rem;
+    width: auto;
+    padding-left: 1.4rem;
+}
+
+.unimed-button:hover{
+    background: linear-gradient(170deg, rgb(117, 31, 134) 2%, rgb(117, 16, 112) 51%, rgb(107, 28, 122) 100%);
+}
+
