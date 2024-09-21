@@ -3,14 +3,14 @@ import { NavLink } from 'react-router-dom';
 import prepagas from '../data/prepagas';
 
 const PrepagasPage = () => {
-    const getButtonGradient = (nombre) => {
+    const getButtonColor = (nombre) => {
         switch (nombre.toLowerCase()) {
             case 'premedic':
-                return 'from-green-800 to-green-900 hover:from-green-900 hover:to-green-800'; // Verde oscuro
+                return 'bg-green-800  hover:text-green-800'; // Verde oscuro
             case 'avalian':
-                return 'from-green-400 to-green-600 hover:from-green-500 hover:to-green-700'; // Verde claro
+                return 'bg-green-600   hover:text-green-600'; // Verde claro
             case 'unimed':
-                return 'from-pink-500 to-pink-700 hover:from-pink-600 hover:to-pink-800'; // Rosa
+                return 'bg-pink-600 hover:text-pink-600'; // Rosa
             default:
                 return 'from-gray-400 to-gray-600'; // Fallback
         }
@@ -28,14 +28,15 @@ const PrepagasPage = () => {
                         <p className="text-white text-lg md:text-2xl">{prepaga.descripcion}</p>
                         <NavLink to='/cotizador'>
                             <button
-                                className={`bg-gradient-to-r ${getButtonGradient(
+                                className={`bg- ${getButtonColor(
                                     prepaga.nombre
-                                )} text-white font-semibold mt-4 py-3 px-6 rounded-full text-lg transition-all duration-300 ease-in-out transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-opacity-50 shadow-md`}
+                                )} w-full sm:w-auto border-2 border-white hover:border-white rounded-full px-6 py-3 font-semibold transition duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-lg text-white hover:bg-white mt-4`}
                             >
                                 Cotiza tu plan
                             </button>
                         </NavLink>
                     </div>
+                
 
                     <div className="beneficios-container w-full md:w-6/12 grid grid-cols-2 sm:grid-cols-4 gap-4">
                         {prepaga.beneficios.map((beneficio, i) => (
