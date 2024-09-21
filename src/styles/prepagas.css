@@ -1,0 +1,17 @@
+.premedic-section{
+    background-image: url('../assets/svgs/blob-premedic.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.avalian-section{
+    background-image: url('../assets/svgs/blob-avalian.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.unimed-section{
+    background-image: url('../assets/svgs/blob-unimed.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
