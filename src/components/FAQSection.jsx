@@ -4,7 +4,7 @@ const FAQSection = () => {
     const faqs = [
         { question: "¿Broker 360 es una obra social?", answer: "No, Broker 360 es un nexo entre clientes y empresas dispuestas a satisfacer sus necesidades, dentro de las cuales se encuentran obras sociales o prepagas." },
         { question: "¿Cuál es el costo por la cotizacón?", answer: "Ninguno. En Broker 360 te ofrecemos un sistema para que puedas cotizar tu servicio cuando quieras sin ningún costo adicional." },
-        { question: "¿Cómo funciona el cotizador?", answer: "Nuestro cotizador se encarga de comparar todos los servicios disponibles basados en los datos que ingreses, brindandote precios certeros e información para que puedas decidir cuál es la mejor solución a tus problemas." },
+        { question: "¿Cómo funciona el cotizador?", answer: "Nuestro cotizador se encarga de comparar todos los servicios disponibles basados en los datos que ingreses, brindándote precios certeros e información para que puedas decidir cuál es la mejor solución a tus problemas." },
         { question: "¿Puedo hablar con un asesor?", answer: "¡Por supuesto! Podes contactarnos mediante whatsapp, facebook o instagram si necesitas más información." },
     ];
 

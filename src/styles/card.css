@@ -1,22 +1,19 @@
-.premedic-card-border {
+.premedic-card-border, .premedic-nombre-container, .premedic-button {
     background: rgb(39, 161, 160);
 
 }
 
-.premedic-nombre-container {
-    background: rgb(39, 161, 160);
-    background: linear-gradient(90deg, rgb(18, 109, 86) 2%, rgba(39, 161, 160, 1) 100%);
-}
-
-.premedic-button{
-    background: linear-gradient(170deg, rgba(39, 161, 160, 1) 2%, rgba(2, 125, 87, 1) 51%, rgba(39, 161, 160, 1) 100%);
+#premedic-logo{
+    height: 2.5rem;
+    width: auto;
+    padding-left:.4rem;
 }
 
 .premedic-button:hover{
-    background: linear-gradient(170deg, rgb(31, 129, 129) 2%, rgb(1, 87, 60) 51%, rgb(27, 114, 114) 100%);
+    background: linear-gradient(170deg, rgb(43, 168, 168) 2%, rgb(20, 85, 94) 51%, rgb(37, 161, 161) 100%);
 }
 
-.avalian-card-border {
+.avalian-card-border, .avalian-nombre-container, .avalian-button {
     background: #8bdc65;
     background: linear-gradient(170deg,#8bdc65 2%, #049b6c 51%, #8bdc65 100%);
 }
@@ -27,21 +24,11 @@
     padding-left: .4rem;
 }
 
-.avalian-nombre-container {
-    background: #8bdc65;
-    background: linear-gradient(170deg,#8bdc65 2%, #049b6c 51%, #8bdc65 100%);
-}
-
-.avalian-button{
-    background: #8bdc65;
-    background: linear-gradient(170deg,#8bdc65 2%, #049b6c 51%, #8bdc65 100%);
-}
-
 .avalian-button:hover{
     background: linear-gradient(170deg,#049b6c 2%,#049b50 51%, #049b6c 100%);
 }
 
-.unimed-card-border {
+.unimed-card-border, .unimed-nombre-container, .unimed-button {
     background: rgb(153, 41, 175);
     background: linear-gradient(170deg, rgba(153, 41, 175, 1) 2%, rgb(161, 22, 154) 51%, rgba(153, 41, 175, 1) 100%);
 }
@@ -50,15 +37,6 @@
     height: 2.5rem;
     width: auto;
     padding-left: 1.4rem;
-}
-
-.unimed-nombre-container {
-    background: rgb(153, 41, 175);
-    background: linear-gradient(170deg, rgba(153, 41, 175, 1) 2%, rgb(161, 22, 154) 51%, rgba(153, 41, 175, 1) 100%);
-}
-
-.unimed-button{
-    background: linear-gradient(170deg, rgba(153, 41, 175, 1) 2%, rgb(161, 22, 154) 51%, rgba(153, 41, 175, 1) 100%);
 }
 
 .unimed-button:hover{

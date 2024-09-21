@@ -18,7 +18,7 @@ const Error404Page = () => {
                 {/* Button to go back to Home */}
                 <Link
                     to="/"
-                    className="bg-[#6d29a6] text-white px-6 py-3 rounded-lg text-lg font-semibold hover:bg-[#BB117F] transition"
+                    className="w-full sm:w-auto bg-white text-[#6810dc] hover:bg-[#6810dc] hover:text-white border-2 border-white hover:border-[#6810dc] rounded-full px-6 py-3 font-semibold transition duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-lg"
                 >
                     Volver al Inicio
                 </Link>
