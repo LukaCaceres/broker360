@@ -12,7 +12,7 @@ const prepagas = [
             'Descuentos en Farmacias.',
         ],
         descripcion:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer euismod eros vel lectus finibus, a fringilla ex volutpat. Sed id risus vel felis tincidunt viverra. Cras posuere, dui sed tincidunt condimentum, urna metus viverra neque, at semper purus nunc non ex. Sed vel tortor vel felis',
+            'Nuestra solvencia moral y económica es la que nos caracteriza y nos diferencia, por eso te ofrecemos cuidar lo más importante al mejor precio. En Premedic contarás con descuentos bajo receta en Farmacity, la farmacia con mayor cobertura del país. También, en nuestra app "Premedic Movil" podrás consultar la cartilla actualizada y hablar con médicos las 24hs, ya sea por videollamada o chat. Te ofrecemos profesionales de primer nivel con amplia cobertura, centros médicos prestigiosos y cobertura dental en nuestro centro propio de implantología y ortodoncia. Para más información y conocer detalles de nuestros planes hacé click debajo y cotiza gratis tu plan.',
         beneficios: [
             { alt: 'Precios a tu Alcance', src: 'src/assets/svgs/beneficios/premedic1.svg' },
             { alt: 'Sumamos Farmacity', src: 'src/assets/svgs/beneficios/premedic2.svg' },
@@ -36,7 +36,7 @@ const prepagas = [
             'Trámites online.',
         ],
         descripcion:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer euismod eros vel lectus finibus, a fringilla ex volutpat. Sed id risus vel felis tincidunt viverra. Cras posuere, dui sed tincidunt condimentum, urna metus viverra neque, at semper purus nunc non ex. Sed vel tortor vel felis',
+            'En Avalian te ofrecemos eficacia y cobertura al 100%. Contamos con Centros Médicos de calidad, una amplia cartilla de prestadores los cuales están disponibles las 24hs y grandes descuentos en medicamentos. También contamos con cobertura nacional y una app propia para que puedas gestionar tus turnos, medicamentos, recetas y demás detalles cuando quieras y donde sea. Si querés afiliarte te ofrecemos distintos medios de pagos, tales como débito automático, tarjetas de crédito, cuenta bancaria o pagos en ventanilla. Para más información y conocer detalles de nuestros planes hacé click debajo y cotiza gratis tu plan.',
         beneficios: [
             { alt: 'Numerosos doctores', src: 'src/assets/svgs/beneficios/avalian1.png' },
             { alt: 'Centros Médicos', src: 'src/assets/svgs/beneficios/avalian2.png' },
@@ -61,7 +61,7 @@ const prepagas = [
             'Buenos precios.',
         ],
         descripcion:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer euismod eros vel lectus finibus, a fringilla ex volutpat. Sed id risus vel felis tincidunt viverra. Cras posuere, dui sed tincidunt condimentum, urna metus viverra neque, at semper purus nunc non ex. Sed vel tortor vel felis',
+            'Con Unimed tendrás a tu alcance un amplio grupo médico formado por los mejores profesionales, podrás gestionar tus turnos, ordenes y recetas con nuestro sistema propio de autogestión. También contarás con atención las 24hs y descuentos en medicamentos bajo receta en distintas farmacias del país. Para más información y conocer detalles de nuestros planes hacé click debajo y cotiza gratis tu plan.',
         beneficios: [
             { alt: 'Medicos Prestigiosos', src: 'src/assets/svgs/beneficios/unimed1.png' },
             { alt: 'Amplio grupo médico', src: 'src/assets/svgs/beneficios/unimed2.png' },
