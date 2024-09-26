@@ -9,7 +9,7 @@ const TrabajaSection = () => {
     >
         <div className="texto-container w-full lg:w-6/12 px-6 flex flex-col justify-center">
             <h2 className="text-white font-semibold text-4xl sm:text-5xl md:text-6xl mb-8">Trabaja con nosotros</h2>
-            <p className="text-white text-base sm:text-xl md:text-2xl mb-8">
+            <p className="text-white text-base text-start sm:text-xl md:text-2xl mb-8">
                 Sumate a nuestro círculo de prestadores para formar parte de las posibles soluciones a los problemas de nuestros clientes. Nuestro equipo de ventas se encargará de ofrecer tus servicios al público objetivo que mejor se adapte al mismo. A su vez, nuestro equipo de marketing publicitará tu empresa en redes sociales, creando contenido basado en los servicios que ofrezcas. Para más información ponete en contacto con nosotros via mail, haciendo click en el boton que se encuentra debajo, o via whatsapp mediante el icono en la barra superior.
             </p>
             <div className="buttons-container flex flex-wrap justify-center lg:justify-start gap-4 mb-4">

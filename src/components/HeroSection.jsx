@@ -27,7 +27,7 @@ const HeroSection = () => {
             </div>
             <NavLink to='/conocenos' className='mt-10'>
                 <button className="w-full sm:w-auto bg-white text-[#6810dc] hover:bg-[#6810dc] hover:text-white border-2 border-white hover:border-[#6810dc] rounded-full px-6 py-3 font-semibold transition duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-lg">
-                    Contactanos
+                    Conocenos
                 </button>
             </NavLink>
         </section>

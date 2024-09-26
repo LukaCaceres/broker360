@@ -66,7 +66,7 @@ function Navbar() {
 
                             {/* WhatsApp icon a la derecha */}
                             <div className="absolute inset-y-0 right-0 flex items-center space-x-4 pr-4">
-                                <a href='https://wa.me/3814467349'>
+                                <a href='https://wa.me/3814467349' target="_blank">
                                     <img
                                         src="https://i.postimg.cc/mDYgY0Pr/whatsapp.png"
                                         alt="WhatsApp"
