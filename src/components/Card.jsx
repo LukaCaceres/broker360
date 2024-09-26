@@ -35,8 +35,8 @@ const Card = ({ prepaga }) => {
             {/* Card Footer */}
             <div className="card-footer w-full h-1/4 flex justify-center items-center pt-8 relative z-40">
                 <NavLink to='/cotizador'>
-                    <div className={`${prepaga.nombre.toLowerCase()}-button rounded-full px-4 py-1 cursor-pointer`}>
-                        <h2 className="text-white text-2xl font-semibold">Cotiza ahora</h2>
+                    <div className={`${prepaga.nombre.toLowerCase()}-button block w-full sm:w-auto  rounded-full px-6 py-3 font-semibold transition duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-lg text-white mt-4`}>
+                        <h2 className="text-white text-2xl font-semibold">Cotizá ahora</h2>
                     </div>
                 </NavLink>
             </div>

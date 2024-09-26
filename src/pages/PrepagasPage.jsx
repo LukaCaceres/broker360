@@ -32,7 +32,7 @@ const PrepagasPage = () => {
                                     prepaga.nombre
                                 )} hidden lg:block w-full sm:w-auto border-2 border-white hover:border-white rounded-full px-6 py-3 font-semibold transition duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-lg text-white hover:bg-white mt-4`}
                             >
-                                Cotiza tu plan
+                                Cotiza ahora
                             </button>
                         </NavLink>
                     </div>
@@ -52,7 +52,7 @@ const PrepagasPage = () => {
                                 prepaga.nombre
                             )} lg:hidden w-full sm:w-auto border-2 border-white hover:border-white rounded-full px-6 py-3 font-semibold transition duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-lg text-white hover:bg-white mt-8`}
                         >
-                            Cotiza tu plan
+                            Cotiza ahora
                         </button>
                     </NavLink>
                 </section>
