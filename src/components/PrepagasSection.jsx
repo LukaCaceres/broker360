@@ -48,13 +48,13 @@ const PrepagasSection = () => {
                     onClick={prevSlide}
                     className="absolute left-0 md:left-20 top-3/8 transform -translate-y-1/2  p-2 px-0 md:px-2 rounded-full focus:outline-none"
                 >
-                    <img src="src/assets/svgs/arrow.png" alt="flecha hacia abajo" className='h-[2rem] md:h-[3rem]' />
+                    <img src="https://i.postimg.cc/D0by7VmM/arrow.png" alt="flecha hacia izquierda" className='h-[2rem] md:h-[3rem]' />
                 </button>
                 <button
                     onClick={nextSlide}
                     className="absolute right-0 md:right-20 top-3/8 transform -translate-y-1/2  p-2 px-0 md:px-2 rounded-full focus:outline-none"
                 >
-                    <img src="src/assets/svgs/arrow.png" alt="flecha hacia abajo" className='h-[2rem] md:h-[3rem] rotate-180' />
+                    <img src="https://i.postimg.cc/D0by7VmM/arrow.png" alt="flecha hacia derecha" className='h-[2rem] md:h-[3rem] rotate-180' />
                 </button>
             </div>
 
