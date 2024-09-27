@@ -5,7 +5,7 @@ const Error404Page = () => {
     return (
         <div
             className="min-h-screen bg-cover bg-center flex flex-col justify-center items-center"
-            style={{ backgroundImage: 'https://i.postimg.cc/XvmYm7YC/error404.png)' }} 
+            style={{ backgroundImage: 'https://i.postimg.cc/RZChnDYN/blob-unimed.png' }} 
         >
             {/* Error Message */}
             <div className="bg-black bg-opacity-50 p-8 rounded-lg shadow-lg text-center">

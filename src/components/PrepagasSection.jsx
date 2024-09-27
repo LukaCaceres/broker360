@@ -69,12 +69,12 @@ const PrepagasSection = () => {
             <img
                 src="https://i.postimg.cc/L6sbLL7d/9109565.png"
                 alt="doctor"
-                className="absolute left-0 z-10 hidden bottom-0 xl:block"
+                className="absolute left-0 z-10 hidden bottom-0 2xl:block"
             />
             <img
                 src="https://i.postimg.cc/QxnnbVGF/9109844.png"
                 alt="doctora"
-                className="absolute right-0 z-10 bottom-0 hidden xl:block"
+                className="absolute right-0 z-10 bottom-0 hidden 2xl:block"
             />
         </section>
     );

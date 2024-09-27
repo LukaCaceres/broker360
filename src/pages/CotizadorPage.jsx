@@ -6,7 +6,7 @@ const CotizadorPage = () => {
     return (
         <div className="cotizador-page w-full min-h-screen flex flex-col xl:flex-row justify-around items-center px-4 md:px-6 py-8">
             {/* Texto informativo */}
-            <div className="texto-info-container text-white w-full xl:w-6/12 mb-8 xl:mb-0 text-start mt-12 xl:mt-0">
+            <div className="texto-info-container text-white w-full xl:w-6/12 mb-8 xl:mb-0 text-start mt-12 xl:mt-0 md:pr-8">
                 <h2 className="text-3xl md:text-6xl text-center xl:text-start font-semibold mb-4">Cotiza tu prepaga</h2>
                 <p className="text-base md:text-2xl leading-relaxed text-pretty">
                     En Broker 360 te ofrecemos una cotización personalizada, que se ajuste a tus necesidades y nivel
