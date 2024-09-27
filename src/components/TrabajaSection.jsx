@@ -5,7 +5,7 @@ const TrabajaSection = () => {
     return (
         <section
         className="section-trabaja-con-nosotros w-full min-h-screen flex flex-col lg:flex-row items-center justify-center lg:items-center lg:justify-between text-center lg:text-start bg-cover bg-center"
-        style={{ backgroundImage: `url('/src/assets/svgs/wave-3.svg')` }}
+        style={{ backgroundImage: `url('https://i.postimg.cc/zvj5zJ8p/wave-3.png')` }}
     >
         <div className="texto-container w-full lg:w-6/12 px-6 flex flex-col justify-center">
             <h2 className="text-white font-semibold text-4xl sm:text-5xl md:text-6xl mb-8">Trabaja con nosotros</h2>

@@ -18,7 +18,7 @@ const PrepagasSection = () => {
     return (
         <section
             className="section-prepagas min-h-screen text-white relative flex flex-col justify-center items-center bg-cover bg-center"
-            style={{ backgroundImage: `url('/src/assets/svgs/layered-wave-2.svg')` }}
+            style={{ backgroundImage: `url('https://i.postimg.cc/B6Fn09jw/layered-wave-2.png')` }}
         >
             {/* Título de la sección */}
             <div className="h2-container w-full h-[10rem] flex items-center justify-center mb-8">

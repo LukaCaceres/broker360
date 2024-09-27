@@ -1,11 +1,11 @@
 .cotizador-page {
-    background-image: url('/src/assets/svgs/cotizador.svg');
+    background-image: url('https://i.postimg.cc/JhGhpBM8/cotizador.png');
     background-size: cover;
     background-position: center;
 }
 
 @media (max-width: 1024px) {
     .cotizador-page {
-        background-image: url('/src/assets/svgs/cotizadorResponsive.svg');
+        background-image: url('https://i.postimg.cc/d3x7smq5/cotizador-Responsive.png');
     }
 }

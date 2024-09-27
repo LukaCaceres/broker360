@@ -1,17 +1,17 @@
 .premedic-section{
-    background-image: url('../assets/svgs/blob-premedic.svg');
+    background-image: url('https://i.postimg.cc/ZKx0nSVG/blob-premedic.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .avalian-section{
-    background-image: url('../assets/svgs/blob-avalian.svg');
+    background-image: url('https://i.postimg.cc/GmM2Pj0z/blob-avalian.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .unimed-section{
-    background-image: url('../assets/svgs/blob-unimed.svg');
+    background-image: url('https://i.postimg.cc/RZChnDYN/blob-unimed.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
