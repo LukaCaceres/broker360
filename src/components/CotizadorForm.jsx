@@ -91,20 +91,20 @@ export default function CotizadorForm() {
                         </select>
                     </div>
                     <div>
-                        <label htmlFor="afiliacion" className="block mb-2 font-medium">Modo de afiliacion</label>
+                        <label htmlFor="afiliacion" className="block mb-2 font-medium">¿Trabajás?</label>
                         <select id="afiliacion" name="afiliacion" className={inputClass + ' [&>option]:bg-gray-800'} required onChange={(e) => {
                             setActive(e.target.value);
                             if (e.target.value === 'blanco') {
                                 setNombre('Sueldo');
-                            } else if (e.target.value === 'autonomo') {
+                            } else if (e.target.value === 'monotributista') {
                                 setNombre('Categoría');
                             } else {
                                 setNombre('');
                             }
                         }}>
-                            <option value="blanco" >Trabajador en blanco</option>
-                            <option value="autonomo">Autónomo</option>
-                            <option value="particular">Afiliación particular</option>
+                            <option value="blanco" >Tengo recibo de sueldo</option>
+                            <option value="monotributista">Soy monotributista</option>
+                            <option value="autonomo">Soy autónomo</option>
                         </select>
                     </div>
                     <div>
@@ -112,7 +112,7 @@ export default function CotizadorForm() {
 
                         <input type="text" name='sueldo' id='sueldo' className={inputClass + (active === 'blanco' ? ' block' : ' hidden')} pattern='[0-9]{9}' minLength='1' maxLength='9' />
 
-                        <input type="text" name='categoria' id='categoria' className={inputClass + (active === 'autonomo' ? 'block' : 'hidden')} pattern='[A-K]|[a-k]{1}' maxLength='1' minLength='1' />
+                        <input type="text" name='categoria' id='categoria' className={inputClass + (active === 'monotributista' ? 'block' : 'hidden')} pattern='[A-K]|[a-k]{1}' maxLength='1' minLength='1' />
                     </div>
 
                 </div>
