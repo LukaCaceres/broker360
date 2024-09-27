@@ -28,7 +28,7 @@ const PrepagasSection = () => {
             </div>
 
             {/* Carrusel en pantallas móviles */}
-            <div className="block lg:hidden w-full max-w-screen-lg overflow-hidden flex items-center justify-center">
+            <div className="block xl:hidden w-full max-w-screen-lg overflow-hidden flex items-center justify-center">
                 <div
                     className="flex transition-transform duration-500"
                     style={{ transform: `translateX(-${currentIndex * 100}%)`, width: `${prepagas.length * 100}%` }}
@@ -59,7 +59,7 @@ const PrepagasSection = () => {
             </div>
 
             {/* Tarjetas en modo escritorio */}
-            <div className="hidden lg:flex justify-center gap-6 w-full max-w-screen-lg">
+            <div className="hidden xl:flex justify-center gap-6 w-full max-w-screen-lg">
                 {prepagas.map((prepaga) => (
                     <Card key={prepaga.nombre} prepaga={prepaga} />
                 ))}
@@ -69,12 +69,12 @@ const PrepagasSection = () => {
             <img
                 src="https://i.postimg.cc/L6sbLL7d/9109565.png"
                 alt="doctor"
-                className="absolute left-0 z-10 hidden bottom-0 lg:block"
+                className="absolute left-0 z-10 hidden bottom-0 xl:block"
             />
             <img
                 src="https://i.postimg.cc/QxnnbVGF/9109844.png"
                 alt="doctora"
-                className="absolute right-0 z-10 bottom-0 hidden lg:block"
+                className="absolute right-0 z-10 bottom-0 hidden xl:block"
             />
         </section>
     );
