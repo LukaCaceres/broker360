@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
 
-export default function CotizadorForm() {
+export default function CotizadorForm({ setFormData }) {
 
     const navigate = useNavigate(); // Hook para navegar
 
@@ -59,25 +59,13 @@ export default function CotizadorForm() {
             return;
         }
 
-        // Si todas las validaciones pasan, guardamos los datos en el localStorage
-        const formData = {
-            nombres,
-            apellidos,
-            celular,
-            edad,
-            provincia,
-            hijos,
-            afiliacion,
-            sueldo,
-            categoria,
-            mail,
-            pareja
-        };
+        // Guardamos los datos en un estado global o local (como props o contexto)
+        const formData = { edad, provincia, hijos, afiliacion, sueldo, categoria, pareja };
+        setFormData(formData);
 
-        // Guardar los datos en el localStorage
-        localStorage.setItem('cotizadorData', JSON.stringify(formData));
 
-        
+
+
         setIsValid(true);
         navigate('/planes'); // Redirigir a '/planes' después de validaciones correctas
     };
@@ -157,11 +145,21 @@ export default function CotizadorForm() {
                     {/* Edad */}
                     <div>
                         <label htmlFor="edad" className="block mb-2 font-medium">Edad</label>
-                        <select id="edad" name="edad" className={inputClass + ' [&>option]:bg-gray-800'} required autoComplete="off">
-                            <option value="menor-18">Menor de 18</option>
-                            <option value="mayor-18">Mayor de 18</option>
-                            <option value="mayor-26">Mayor de 26</option>
-                        </select>
+                        <input
+                            type="text"
+                            name="edad"
+                            id="edad"
+                            className={`${inputClass}`}
+                            pattern="^[0-9]+$"
+                            minLength="1"
+                            maxLength="2"
+                            title="Introduce un número de 1 o 2 dígitos, sin comas ni puntos."
+                            onInput={(e) => {
+                                e.target.value = e.target.value.replace(/[^\d]/g, ''); // Limitar solo a números.
+                            }}
+                            placeholder="18"
+                            autoComplete="off"
+                        />
                     </div>
 
                     {/* Provincia */}

@@ -2,7 +2,7 @@ import React from 'react';
 import '../styles/cotizadorPage.css'
 import CotizadorForm from '../components/CotizadorForm';
 
-const CotizadorPage = () => {
+const CotizadorPage = ({ setFormData }) => {
     return (
         <div className="cotizador-page w-full min-h-screen flex flex-col xl:flex-row justify-around items-center px-4 md:px-6 py-8">
             {/* Texto informativo */}
@@ -18,7 +18,7 @@ const CotizadorPage = () => {
 
             {/* Formulario del cotizador */}
             <div className="w-full xl:w-6/12">
-                <CotizadorForm />
+                <CotizadorForm setFormData={setFormData} />
             </div>
         </div>
     );
