@@ -12,10 +12,10 @@ const FAQSection = () => {
         <section
             className="section-faq min-h-screen bg-cover bg-center py-12"
             style={{
-                backgroundImage: `url('/src/assets/svgs/wave-4.svg')`,
+                backgroundImage: `url('https://i.postimg.cc/8kBTBbMW/wave-4.png')`,
             }}
         >
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 xl:px-8">
                 <h2 className="text-4xl font-extrabold text-white text-center mb-12">Preguntas Frecuentes</h2>
 
                 {/* Línea central de la timeline solo en pantallas grandes */}

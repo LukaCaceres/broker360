@@ -18,7 +18,7 @@ const PrepagasSection = () => {
     return (
         <section
             className="section-prepagas min-h-screen text-white relative flex flex-col justify-center items-center bg-cover bg-center"
-            style={{ backgroundImage: `url('/src/assets/svgs/layered-wave-2.svg')` }}
+            style={{ backgroundImage: `url('https://i.postimg.cc/B6Fn09jw/layered-wave-2.png')` }}
         >
             {/* Título de la sección */}
             <div className="h2-container w-full h-[10rem] flex items-center justify-center mb-8">
@@ -28,7 +28,7 @@ const PrepagasSection = () => {
             </div>
 
             {/* Carrusel en pantallas móviles */}
-            <div className="block lg:hidden w-full max-w-screen-lg overflow-hidden flex items-center justify-center">
+            <div className="block xl:hidden w-full max-w-screen-lg overflow-hidden flex items-center justify-center">
                 <div
                     className="flex transition-transform duration-500"
                     style={{ transform: `translateX(-${currentIndex * 100}%)`, width: `${prepagas.length * 100}%` }}
@@ -48,18 +48,18 @@ const PrepagasSection = () => {
                     onClick={prevSlide}
                     className="absolute left-0 md:left-20 top-3/8 transform -translate-y-1/2  p-2 px-0 md:px-2 rounded-full focus:outline-none"
                 >
-                    <img src="src/assets/svgs/arrow.png" alt="flecha hacia abajo" className='h-[2rem] md:h-[3rem]' />
+                    <img src="https://i.postimg.cc/D0by7VmM/arrow.png" alt="flecha hacia izquierda" className='h-[2rem] md:h-[3rem]' />
                 </button>
                 <button
                     onClick={nextSlide}
                     className="absolute right-0 md:right-20 top-3/8 transform -translate-y-1/2  p-2 px-0 md:px-2 rounded-full focus:outline-none"
                 >
-                    <img src="src/assets/svgs/arrow.png" alt="flecha hacia abajo" className='h-[2rem] md:h-[3rem] rotate-180' />
+                    <img src="https://i.postimg.cc/D0by7VmM/arrow.png" alt="flecha hacia derecha" className='h-[2rem] md:h-[3rem] rotate-180' />
                 </button>
             </div>
 
             {/* Tarjetas en modo escritorio */}
-            <div className="hidden lg:flex justify-center gap-6 w-full max-w-screen-lg">
+            <div className="hidden xl:flex justify-center gap-6 w-full max-w-screen-lg">
                 {prepagas.map((prepaga) => (
                     <Card key={prepaga.nombre} prepaga={prepaga} />
                 ))}
@@ -69,12 +69,12 @@ const PrepagasSection = () => {
             <img
                 src="https://i.postimg.cc/L6sbLL7d/9109565.png"
                 alt="doctor"
-                className="absolute left-0 z-10 hidden bottom-0 lg:block"
+                className="absolute left-0 z-10 hidden bottom-0 2xl:block"
             />
             <img
                 src="https://i.postimg.cc/QxnnbVGF/9109844.png"
                 alt="doctora"
-                className="absolute right-0 z-10 bottom-0 hidden lg:block"
+                className="absolute right-0 z-10 bottom-0 hidden 2xl:block"
             />
         </section>
     );
