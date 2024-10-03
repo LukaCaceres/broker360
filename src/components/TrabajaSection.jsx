@@ -5,7 +5,7 @@ const TrabajaSection = () => {
     return (
         <section
         className="section-trabaja-con-nosotros w-full min-h-screen flex flex-col xl:flex-row items-center justify-center xl:items-center xl:justify-between text-center xl:text-start bg-cover bg-center"
-        style={{ backgroundImage: `url('https://i.postimg.cc/zvj5zJ8p/wave-3.png')` }}
+        style={{ backgroundImage: `url('src/assets/img/bg/wave-3.webp')` }}
     >
         <div className="texto-container w-full xl:w-6/12 px-6 flex flex-col justify-center">
             <h2 className="text-white font-semibold text-4xl sm:text-5xl md:text-6xl mb-8">Trabaja con nosotros</h2>
@@ -36,7 +36,7 @@ const TrabajaSection = () => {
             <img
                 src="https://i.postimg.cc/g2GnRZH1/silhouette-businessman-with-glasses.jpg"
                 alt="Personas negociando"
-                className="h-full object-cover xl:rounded-r-[2rem] xl:rounded-l-[0rem] md:rounded-[2rem] -scale-x-100"
+                className="h-full object-cover md:rounded-[2rem] -scale-x-100"
             />
         </div>
     </section>

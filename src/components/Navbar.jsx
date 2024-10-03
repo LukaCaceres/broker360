@@ -30,13 +30,14 @@ function Navbar() {
                             </div>
 
                             {/* Logo a la izquierda con texto Broker 360 */}
-                            <NavLink to='/' className="hidden sm:flex sm:items-center sm:space-x-2">
+                            <NavLink to='/' className="hidden md:flex md:items-center md:space-x-2">
                                 <img
                                     src="https://i.postimg.cc/NjCkQtnH/icon-broker.png"
                                     alt="Broker 360 Logo"
-                                    className="h-8 w-auto cursor-pointer"
+                                    className="cursor-pointer h-[3rem] w-[3rem]"
+                                    loading='lazy'
                                 />
-                                <p className="text-white font-semibold text-lg cursor-pointer">Broker 360</p>
+                                <h2 className="text-white font-semibold text-lg cursor-pointer">Broker 360</h2>
                             </NavLink>
 
                             {/* Navegación centrada */}
@@ -68,9 +69,10 @@ function Navbar() {
                             <div className="absolute inset-y-0 right-0 flex items-center space-x-4 pr-4">
                                 <a href='https://wa.me/3814467349' target="_blank">
                                     <img
-                                        src="https://i.postimg.cc/mDYgY0Pr/whatsapp.png"
+                                        src="src/assets/img/logos/whatsapp.webp"
                                         alt="WhatsApp"
                                         className="h-[1.8rem] w-[1.8rem] rounded-full cursor-pointer"
+                                        loading='lazy'
                                     />
                                 </a>
                             </div>
