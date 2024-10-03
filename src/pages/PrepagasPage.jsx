@@ -41,7 +41,7 @@ const PrepagasPage = () => {
                     <div className="beneficios-container w-full xl:w-6/12 grid grid-cols-2 sm:grid-cols-4 gap-4">
                         {prepaga.beneficios.map((beneficio, i) => (
                             <div key={i} className="beneficio-container flex flex-col items-center">
-                                <img src={beneficio.src} alt={beneficio.alt} className="object-cover h-[4rem] w-auto" />
+                                <img src={beneficio.src} alt={beneficio.alt} className="object-cover h-[4rem] w-auto" loading='lazy' />
                                 <p className="text-white text-base sm:text-xl text-center mt-2">{beneficio.alt}</p>
                             </div>
                         ))}

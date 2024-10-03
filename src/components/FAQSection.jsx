@@ -12,7 +12,7 @@ const FAQSection = () => {
         <section
             className="section-faq min-h-screen bg-cover bg-center py-12"
             style={{
-                backgroundImage: `url('https://i.postimg.cc/8kBTBbMW/wave-4.png')`,
+                backgroundImage: `url('src/assets/img/bg/wave-4.webp')`,
             }}
         >
             <div className="max-w-7xl mx-auto px-4 sm:px-6 xl:px-8">

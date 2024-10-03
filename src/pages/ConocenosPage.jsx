@@ -23,14 +23,14 @@ const ConocenosPage = () => {
                             </p>
                             {/* Imagen en responsive */}
                             <div className="xl:hidden my-6">
-                                <img src="https://i.postimg.cc/28qsRQ5X/sales-team.jpg" alt="Company overview" className="rounded-2xl shadow-md" />
+                                <img src="src/assets/img/sales-team.webp" alt="Equipo de ventas" className="rounded-2xl shadow-md" />
                             </div>
                             <p className="text-lg">
                                 No somos una obra social, prepaga ni aseguradora, pero te ofrecemos estos servicios mediante nuestro círculo de prestadores. Esto significa que nuestro equipo de ventas se encargará de asesorarte y ofrecerte opciones entre nuestros prestadores para que puedas encontrar una solución acordea a tus necesidades.
                             </p>
                         </div>
                         <div className="hidden xl:block md:w-1/2 mt-8 md:mt-0">
-                            <img src="https://i.postimg.cc/28qsRQ5X/sales-team.jpg" alt="Company overview" className="rounded-2xl shadow-md" />
+                            <img src="src/assets/img/sales-team.webp" alt="Equipo de ventas" className="rounded-2xl shadow-md" />
                         </div>
                     </div>
                 </section>
@@ -45,7 +45,7 @@ const ConocenosPage = () => {
                         <p className="text-lg mb-8 max-w-3xl mx-auto xl:text-center text-pretty">
                             Ayudarte a satisfacer tus necesidades mediante nuestro círculo de prestadores, ofreciéndote una gran variedad de soluciones a tus problemas y guiándote a la que mejor se acomode a tus necesidades y exigencias.
                         </p>
-                        <img src="https://i.postimg.cc/sDp0qnwf/business-people-shaking-hands-together.jpg" alt="Nuestra misión" className="mx-auto rounded-2xl shadow-md xl:h-[35rem]" />
+                        <img src="src/assets/img/shakinghand.webp" alt="Personas haciendo negocios" className="mx-auto rounded-2xl shadow-md xl:h-[35rem]" />
                     </div>
                 </section>
 
@@ -55,7 +55,7 @@ const ConocenosPage = () => {
                         <h2 className="text-5xl font-semibold mb-12">Nuestro representante</h2>
                         {/* CEO */}
                         <div className="team-member">
-                            <img src="https://i.postimg.cc/5tZBxJ2h/CEO.jpg" alt="Team member" className="rounded-full mx-auto mb-4 w-48 h-48 object-cover shadow-lg" />
+                            <img src="src/assets/img/CEO.webp" alt="imagen del CEO" className="rounded-full mx-auto mb-4 w-48 h-48 object-cover shadow-lg" />
                             <h3 className="text-2xl font-bold">Sebastián Langella</h3>
                             <p className="text-lg text-gray-600">CEO & Fundador</p>
                             <p className="mt-2 px-4 text-xl">Con más de 20 años de experiencia en el mercado, Sebastián nos lidera con visión y pasión.</p>

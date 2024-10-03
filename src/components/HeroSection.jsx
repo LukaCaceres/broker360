@@ -8,7 +8,7 @@ const HeroSection = () => {
     return (
         <section
             className="section-hero min-h-screen flex flex-col items-center justify-center p-4 max-w-screen overflow-hidden bg-cover bg-center"
-            style={{ backgroundImage: `url('https://i.postimg.cc/6qwtx7Jy/wave-1.png')` }}
+            style={{ backgroundImage: `url('src/assets/img/bg/wave-1.webp')` }}
         >
             <div className="w-full space-y-6 lg:w-auto sm:text-center">
                 <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white">
@@ -22,7 +22,7 @@ const HeroSection = () => {
                     )}
                 </h1>
                 <p className="text-base sm:text-lg md:text-xl text-gray-300 text-start lg:max-w-2xl">
-                    Somos un grupo destinado a cumplir la función de nexo entre una persona con problemas y una empresa dispuesta a solucionarlos. Si necesitás ayuda contactanos y te brindaremos atención personalizada para que puedas encontrar la solución adecuada a tus necesidades. Si queres formar parte de nuestro círculo de prestadores podes contactarnos via mail, whatsapp o mediante nuestras redes. Para más información, hace click aquí  <img src="https://i.postimg.cc/D0by7VmM/arrow.png" alt="flecha hacia abajo" className='h-[1rem] rotate-[270deg] inline mx-2' />
+                    Somos un grupo destinado a cumplir la función de nexo entre una persona con problemas y una empresa dispuesta a solucionarlos. Si necesitás ayuda contactanos y te brindaremos atención personalizada para que puedas encontrar la solución adecuada a tus necesidades. Si queres formar parte de nuestro círculo de prestadores podes contactarnos via mail, whatsapp o mediante nuestras redes. Para más información, hace click aquí  <img src="src/assets/img/arrow.webp" alt="flecha hacia abajo" className='h-[1rem] rotate-[270deg] inline mx-2' />
                 </p>
             </div>
             <NavLink to='/conocenos' className='mt-10'>
