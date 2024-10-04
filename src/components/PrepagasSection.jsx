@@ -25,7 +25,7 @@ const PrepagasSection = () => {
     return (
         <section
             className="section-prepagas w-full min-h-screen text-white relative flex flex-col justify-center items-center bg-cover bg-center"
-            style={{ backgroundImage: `url('src/assets/img/bg/wave-2.webp')` }}
+            style={{ backgroundImage: `url('https://i.postimg.cc/B6Fn09jw/layered-wave-2.png')` }}
         >
             {/* Título de la sección */}
             <div className="h2-container w-full h-[10rem] flex items-center justify-center mb-8">
@@ -55,13 +55,13 @@ const PrepagasSection = () => {
                     onClick={prevSlide}
                     className="absolute left-0 md:left-10 top-3/8 transform -translate-y-1/2 z-50 p-2 px-0 md:px-2 rounded-full focus:outline-none"
                 >
-                    <img src="src/assets/img/arrow.webp" alt="flecha hacia izquierda" className='h-[2rem] md:h-[3rem]' />
+                    <img src="https://i.postimg.cc/bNzQ1r7b/arrow.webp" alt="flecha hacia izquierda" className='h-[2rem] md:h-[3rem]' />
                 </button>
                 <button
                     onClick={nextSlide}
                     className="absolute right-0 md:right-10 top-3/8 transform -translate-y-1/2 z-50 p-2 px-0 md:px-2 rounded-full focus:outline-none"
                 >
-                    <img src="src/assets/img/arrow.webp" alt="flecha hacia derecha" className='h-[2rem] md:h-[3rem] rotate-180' />
+                    <img src="https://i.postimg.cc/bNzQ1r7b/arrow.webp" alt="flecha hacia derecha" className='h-[2rem] md:h-[3rem] rotate-180' />
                 </button>
             </div>
 
@@ -95,13 +95,13 @@ const PrepagasSection = () => {
                     onClick={prevSlide}
                     className="absolute left-[calc(50%-40rem)] top-1/2 transform -translate-y-1/2 p-2 md:px-3 rounded-full focus:outline-none"
                 >
-                    <img src="src/assets/img/arrow.webp" alt="flecha hacia izquierda" className='h-[2rem] md:h-[3rem]' />
+                    <img src="https://i.postimg.cc/bNzQ1r7b/arrow.webp" alt="flecha hacia izquierda" className='h-[2rem] md:h-[3rem]' />
                 </button>
                 <button
                     onClick={nextSlide}
                     className="absolute right-[calc(50%-40rem)] top-1/2 transform -translate-y-1/2 p-2 md:px-3 rounded-full focus:outline-none"
                 >
-                    <img src="src/assets/img/arrow.webp" alt="flecha hacia derecha" className='h-[2rem] md:h-[3rem] rotate-180' />
+                    <img src="https://i.postimg.cc/bNzQ1r7b/arrow.webp" alt="flecha hacia derecha" className='h-[2rem] md:h-[3rem] rotate-180' />
                 </button>
             </div>
         </section>

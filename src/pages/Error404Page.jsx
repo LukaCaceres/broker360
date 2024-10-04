@@ -1,11 +1,11 @@
-import React from 'react'
+import React from 'react';
 import { Link } from 'react-router-dom';
 
 const Error404Page = () => {
     return (
         <div
             className="min-h-screen bg-cover bg-center flex flex-col justify-center items-center"
-            style={{ backgroundImage: 'src/assets/img/bg/error404.webp' }} 
+            style={{ backgroundImage: `url('https://i.postimg.cc/XvmYm7YC/error404.png')` }} 
         >
             {/* Error Message */}
             <div className="bg-black bg-opacity-50 p-8 rounded-lg shadow-lg text-center">
@@ -27,4 +27,4 @@ const Error404Page = () => {
     );
 };
 
-export default Error404Page
+export default Error404Page;
