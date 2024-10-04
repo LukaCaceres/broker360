@@ -6,9 +6,11 @@ const PrepagasPage = () => {
     const getButtonColor = (nombre) => {
         switch (nombre.toLowerCase()) {
             case 'premedic':
-                return 'bg-green-800  hover:text-green-800'; // Verde oscuro
+                return 'bg-green-800 hover:text-green-800'; // Verde oscuro
+            case 'ossacra':
+                return 'bg-green-500 hover:text-green-500'; // Verde claro
             case 'avalian':
-                return 'bg-green-600   hover:text-green-600'; // Verde claro
+                return 'bg-green-600 hover:text-green-600'; // Verde claro
             case 'unimed':
                 return 'bg-pink-600 hover:text-pink-600'; // Rosa
             default:
