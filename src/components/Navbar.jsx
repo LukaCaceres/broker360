@@ -69,7 +69,7 @@ function Navbar() {
                             <div className="absolute inset-y-0 right-0 flex items-center space-x-4 pr-4">
                                 <a href='https://wa.me/3814467349' target="_blank">
                                     <img
-                                        src="src/assets/img/logos/whatsapp.webp"
+                                        src="https://i.postimg.cc/FFfK840q/whatsapp.webp"
                                         alt="WhatsApp"
                                         className="h-[1.8rem] w-[1.8rem] rounded-full cursor-pointer"
                                         loading='lazy'
