@@ -31,4 +31,12 @@
     padding-left: 1.4rem;
 }
 
+.ossacra-card-border, .ossacra-nombre-container, .ossacra-button {
+    background: #71ac55;
+}
 
+#ossacra-logo{
+    height: 1.5rem;
+    width: auto;
+    padding-left: .2rem;
+}

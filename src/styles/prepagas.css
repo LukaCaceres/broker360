@@ -15,3 +15,9 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.ossacra-section{
+    background-image: url('src/assets/img/bg/blob-ossacra.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
